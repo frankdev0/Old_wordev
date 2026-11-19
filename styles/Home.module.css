@@ -1,0 +1,350 @@
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/mainpdf.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .mainBox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .box{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin: 1rem;
+    width: 100%;
+    max-width: 450px;
+  }
+  .boxx{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .adobeHeader{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .otherHeader{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .adobeText{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .officeIcon{
+    font-size: 1rem;
+    color: rgb(218, 3, 3);
+  }
+
+  .otherIcon{
+    font-size: 1rem;
+    color: #2B579A;
+  }
+
+  .emailLinks{
+    width: 100%;
+    height: 50px;
+    background-color: #FF0000;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    appearance: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .emailLink{
+    width: 100%;
+    height: 50px;
+    background-color: #2B579A;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    appearance: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .signin{
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin: 0rem;
+    margin-left: 0.3rem;
+    color: #ffffff;
+  }
+
+  .officeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid  #FF0000;
+  }
+  .otherBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid  #2B579A;
+  }
+
+  .verify{
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin: 0rem;
+    color: #666;
+  }
+
+  .copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0.5rem 0rem;
+  }
+
+  .otherEmailIcon{
+    font-size: 2rem;
+    color: #2B579A;
+  }
+
+  .modalsubtext{
+    margin: 1rem 0rem;
+  }
+
+.label{
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 0.2rem 0rem;
+  color: #666;
+  display: flex;
+}
+.labels{
+  font-size: 0.70rem;
+  font-weight: 500;
+  margin: 0.2rem 0rem;
+  color: #858080;
+  display: flex;
+}
+  .passwordinput::placeholder{
+    font-size: 0.75rem;
+  }
+  
+  
+  .passwordinput {
+    display: block;
+    width: 100%;
+    outline: none;
+    /* border: none; */
+    border: 1px solid #ccc;
+    padding: 0.55rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    background-clip: padding-box;
+    border-radius: 5px;
+  }
+
+  .passwordinput:focus{
+    border: 1px solid #7e7c7c;
+  }
+
+  .officeInput{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0067BB; 
+    padding: 0.55rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    border-radius: 0;
+  }
+
+  .sign{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0rem;
+  }
+
+  .account{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .emailimg{
+    border-radius: 50%;
+  }
+
+  .errorMsg{
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #E81123;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .btncontainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.7rem;
+  }
+
+  .loginbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border: none;
+    color: #ffffff;
+    background-color: #0073B1;
+    cursor: pointer;
+    margin-left:0.5rem;
+}
+  .closebtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border: none;
+    color: #ffffff;
+    background-color: #666;
+    cursor: pointer;
+}
+
+.closebtn:hover{
+  background-color: #9c9797;
+}
+.loginbtn:hover{
+  background-color: #0d90d6;
+}
+
+.office{
+  font-size: 1rem;
+  color: #777676;
+  margin: 0rem;
+  margin-left: 0.3rem;
+  font-weight: 600;
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ @media screen and (max-width: 900px) {
+
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .mainBox{
+
+    margin: 0rem;
+  }
+
+  .box{
+      margin: 0rem;
+    }
+
+    .otherHeader{
+      font-size: 1rem;
+    }
+
+    .labels{
+      font-size: 0.65rem;
+      text-align: left;
+    }
+
+}
+
+  @media  screen and (max-width: 1200px) {
+    .desktopMenu {
+      display: none;
+    }
+  }
